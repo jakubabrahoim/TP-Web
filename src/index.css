@@ -13,7 +13,12 @@ code {
     monospace;
 }
 
-.user-hover:hover ,
-.user-hover:focus {
+.user-container {
+  background-color: whitesmoke;
+  
+}
+
+.user-container:hover ,
+.user-container:focus {
   background-color: lightgrey;
 }

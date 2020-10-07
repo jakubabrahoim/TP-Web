@@ -57,14 +57,18 @@ class PeopleContainer extends React.Component {
     render() {
         const containerStyle = {
             "border-radius": "0px",
-            "background-color": "#1b1b1b"
+            "margin": "0px"
+        }
+
+        const headerStyle = {
+            "font-weight": "bold"
         }
 
         const people = this.getPeopleList();
 
         return (
-            <div className="jumbotron">
-                <h3>Clenovia timu</h3>
+            <div className="jumbotron" id="team" style={containerStyle}>
+                <h3 style={headerStyle}>ČLENOVIA TÍMU</h3>
                 {people}
             </div>
         );

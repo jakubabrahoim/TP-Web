@@ -6,6 +6,7 @@ import NavigationBar from './components/NavigationBar'
 import IntroContainer from './components/IntroContainer';
 import AssignmentContainer from './components/AssignmentContainer';
 import PeopleContainer from './components/PeopleContainer';
+import FooterContainer from './components/FooterContainer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <IntroContainer />
       <AssignmentContainer />
       <PeopleContainer />
+      <FooterContainer />
     </div>
   );
 }

@@ -6,7 +6,7 @@ class NavigationBar extends React.Component {
 
     render() {
         return (
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
                 <Navbar.Brand href="#home">Tímový projekt</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
