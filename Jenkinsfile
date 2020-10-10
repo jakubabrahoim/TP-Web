@@ -22,7 +22,7 @@
             //     steps{
             //         withCredentials([sshUserPrivateKey(credentialsId: "asicde-git", keyFileVariable: 'keyfile')]) {    
             //             script{
-            //                 sh "GIT_SSH_COMMAND='ssh -i ${keyfile} -o IdentitiesOnly=yes' git clone -b dev git@github.com:ASICDE/website.git ."
+            //                 sh "GIT_SSH_COMMAND='ssh -i ${keyfile} -o IdentitiesOnly=yes' git clone git@github.com:ASICDE/website.git ."
             //             }
             //         }
             //     }
