@@ -37,7 +37,9 @@ class LogEntryContainer extends React.Component {
     render() {
         const containerStyle = {
             "border-radius": "0px",
-            "margin": "0px"
+            "margin": "0px",
+            "text-align": "left",
+            "padding": "50px 15%"
         }
 
         const containerLastStyle = {
@@ -47,7 +49,8 @@ class LogEntryContainer extends React.Component {
         }
 
         const headerStyle = {
-            "font-weight": "bold"
+            "font-weight": "bold",
+            "text-align": "center"
         }
 
         const lastEntry = this.getEntries()[0];
