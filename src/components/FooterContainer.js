@@ -34,26 +34,16 @@ class FooterContainer extends React.Component {
             "display": "inline-block"
         }
 
-        const copyrightStyle2 = {
-            "color": "lightgrey",
-            "font-size": "14px",
-            "font-weight": "1500",
-            "padding-top": "10px",
-            "padding-left": "50px",
-            "display": "inline-block",
-            "float": "right"
-        }
-
         return (
-            <footer>
-                <div className="jumbotron" style={styles2}>
-                    <p>Lorem ipsum dolor sit amet conqueror</p>
-                </div>
-                <div className="jumbotron" style={styles}>
-                    <h6 style={copyrightStyle}>TIMOVY PROJEKT | FIIT STU</h6>
-                    <h6 style={copyrightStyle2}>Built with REACT / BOOTSTRAP</h6>
-                </div>
-            </footer>
+            <div>
+                <footer>
+                    <div className="jumbotron" style={styles2}>
+                    </div>
+                    <div className="jumbotron" style={styles}>
+                        <h6 style={copyrightStyle}>© 2020 | TÍMOVÝ PROJEKT | FIIT STU</h6>
+                    </div>
+                </footer>
+            </div>
         );
     }
 }

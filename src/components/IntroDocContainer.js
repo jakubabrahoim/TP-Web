@@ -1,6 +1,6 @@
 import React from 'react';
 
-class IntroContainer extends React.Component {
+class IntroDocContainer extends React.Component {
     render() {
         const styles = {
             "background": "#2C3E50",
@@ -16,11 +16,10 @@ class IntroContainer extends React.Component {
 
         return (
             <div className="jumbotron" style={styles}>
-                <h1 style={headerStyle}>TÍMOVÝ PROJEKT</h1>
-                <h2 style={headerStyle}>Webové IDE pre ASIC [ASICDE]</h2>
+                <h1 style={headerStyle}>Dokumentácia k projektu</h1>
             </div>
         );
     }
 }
 
-export default IntroContainer;
+export default IntroDocContainer;

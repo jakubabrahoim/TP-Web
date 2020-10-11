@@ -1,22 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-import NavigationBar from './components/NavigationBar'
-import IntroContainer from './components/IntroContainer';
-import AssignmentContainer from './components/AssignmentContainer';
-import PeopleContainer from './components/PeopleContainer';
-import FooterContainer from './components/FooterContainer';
+import HomePage from './pages/HomePage';
+import NotFoundPage from './pages/NotFoundPage';
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch
+} from 'react-router-dom';
+import DocumentationPage from './pages/DocumentationPage';
+import LogPage from './pages/LogPage';
 
 function App() {
   return (
-    <div className="App">
-      <NavigationBar />
-      <IntroContainer />
-      <AssignmentContainer />
-      <PeopleContainer />
-      <FooterContainer />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/documentation" component={DocumentationPage} />
+        <Route exact path="/log" component={LogPage} />
+        <Route component={NotFoundPage} />
+      </Switch>
+    </Router>
   );
 }
 

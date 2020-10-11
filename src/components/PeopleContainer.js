@@ -8,44 +8,44 @@ class PeopleContainer extends React.Component {
             {
                 firstName: "Adam",
                 lastName: "Chmara",
-                position: "TODO",
-                img: "assets/363640-200.png"
+                position: "Dodať FOTO",
+                img: "assets/chmara.jpg"
             },
             {
                 firstName: "Dominik",
                 lastName: "Dancs",
                 position: "TODO",
-                img: "assets/363640-200.png"
+                img: "assets/DominikDancs.png"
             },
             {
                 firstName: "Gergely",
                 lastName: "Lengyel",
-                position: "TODO",
-                img: "assets/363640-200.png"
+                position: "Dodať FOTO",
+                img: "assets/lengyel.jpg"
             },
             {
-                firstName: "Tadeas",
-                lastName: "Drahovsky",
+                firstName: "Tadeáš",
+                lastName: "Drahovský",
                 position: "TODO",
-                img: "assets/363640-200.png"
+                img: "assets/TadeasDrahovsky.png"
             },
             {
                 firstName: "Kamil",
                 lastName: "Lihan",
                 position: "TODO",
+                img: "assets/KamilLihan.png"
+            },
+            {
+                firstName: "Karolína",
+                lastName: "Trnovcová",
+                position: "Dodať FOTO",
                 img: "assets/363640-200.png"
             },
             {
-                firstName: "Karolina",
-                lastName: "Trnavcova",
+                firstName: "Lukáš",
+                lastName: "Mišaga",
                 position: "TODO",
-                img: "assets/363640-200.png"
-            },
-            {
-                firstName: "Lukas",
-                lastName: "Misaga",
-                position: "TODO",
-                img: "assets/363640-200.png"
+                img: "assets/LukasMisaga.png"
             },
         ];
 
