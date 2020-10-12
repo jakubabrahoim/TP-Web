@@ -8,7 +8,7 @@ class LogEntryContainer extends React.Component {
             {
                 date: "01-01-1999",
                 title: "Testovaci zaznam1",
-                doc: "./assets/KamilLihan.png",
+                doc: "/",
                 subtitle: "Sprint 1"
             },
             {
