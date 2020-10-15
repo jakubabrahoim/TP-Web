@@ -6,29 +6,17 @@ class LogEntryContainer extends React.Component {
     getEntries() {
         const entries = [
             {
-                date: "01-01-1999",
-                title: "Testovaci zaznam1",
-                doc: "/",
-                subtitle: "Sprint 1"
+                date: "12.10.2020 12:00",
+                title: "Zápisnica 1. stretnutie",
+                doc: "../docs/log-02.docx",
+                subtitle: "Bc. Tadeáš Drahovský"
             },
             {
-                date: "01-01-1999",
-                title: "Testovaci zaznam2",
-                doc: "/",
-                subtitle: "Sprint 1"
-            },
-            {
-                date: "01-01-1999",
-                title: "Testovaci zaznam3",
-                doc: "/",
-                subtitle: "Sprint 1"
-            },
-            {
-                date: "01-01-1999",
-                title: "Testovaci zaznam4",
-                doc: "/",
-                subtitle: "Sprint 1"
-            },
+                date: "03.10.2020 12:00",
+                title: "Zápisnica 1. stretnutie",
+                doc: "../docs/log-01.docx",
+                subtitle: "Bc. Tadeáš Drahovský"
+            }
         ]
 
         return entries.map(e => <Entry item={e} />);

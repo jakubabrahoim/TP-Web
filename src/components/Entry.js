@@ -2,8 +2,17 @@ import React from 'react';
 
 class Entry extends React.Component {
     render() {
+        var width = this.props.width;
+        if (!width)
+            width = "45%";
+
+        var height = this.props.height;
+        if (!height)
+            height = "auto";
+
         const memberCardStyle = {
-            "width": "45%",
+            "width": width,
+            "height": height,
             "min-width": "250px",
             "max-width": "650px",
             "display": "inline-block",
@@ -12,21 +21,29 @@ class Entry extends React.Component {
             "-webkit-box-shadow": "10px 10px 28px -3px rgba(0,0,0,0.26)",
             "-moz-box-shadow": "10px 10px 28px -3px rgba(0,0,0,0.26)",
             "box-shadow": "10px 10px 28px -3px rgba(0,0,0,0.26)",
-            "text-align": "center"
+            "text-align": "center",
+            "padding": "60px 30px"
         };
+
+        var titleTextStyle = "125px";
+        if (!this.props.methodology)
+            titleTextStyle = "40px";
 
         const titleStyle = {
             "text-transform": "uppercase",
             "font-weight": "bolder",
             "color": "#333",
-            "text-align": "left"
+            "height": titleTextStyle,
+            "text-align": "left",
+            "overflow": "hidden"
         }
 
         const subTitleStyle = {
             "font-weight": "thin",
             "color": "#555",
             "font-size": "20px",
-            "text-align": "left"
+            "text-align": "left",
+            "margin-left": "10px"
         }
 
         const dateStyle = {
@@ -38,9 +55,9 @@ class Entry extends React.Component {
         return (
             <a href={this.props.item.doc} className="jumbotron user-container" style={memberCardStyle}>
                     <h6 style={dateStyle}>{this.props.item.date}</h6>
-                    <h2 style={titleStyle}>{this.props.item.title}</h2>
-                    <h3 style={subTitleStyle}>{this.props.item.subtitle}</h3>
-                    <p>Stiahnuť</p>
+                    <h4 style={titleStyle}>{this.props.item.title}</h4>
+                    <h5 style={subTitleStyle}>{this.props.item.subtitle}</h5>
+                    <div>Stiahnuť</div>
             </a>
         );
     }

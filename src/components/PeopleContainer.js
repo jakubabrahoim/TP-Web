@@ -20,8 +20,8 @@ class PeopleContainer extends React.Component {
             {
                 firstName: "Gergely",
                 lastName: "Lengyel",
-                position: "Dodať FOTO",
-                img: "assets/lengyel.jpg"
+                position: "TODO",
+                img: "assets/GergelyLengyel.png"
             },
             {
                 firstName: "Tadeáš",
@@ -38,8 +38,8 @@ class PeopleContainer extends React.Component {
             {
                 firstName: "Karolína",
                 lastName: "Trnovcová",
-                position: "Dodať FOTO",
-                img: "assets/363640-200.png"
+                position: "TODO",
+                img: "assets/KarolinaTrnovcova.png"
             },
             {
                 firstName: "Lukáš",

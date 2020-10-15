@@ -14,7 +14,9 @@ class NavigationBar extends React.Component {
                         <Nav.Link href="/#about">O projekte</Nav.Link>
                         <Nav.Link href="/#team">Členovia tímu</Nav.Link>
                         <NavDropdown title="Dokumentácia" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="/documentation">Prehľad dokumentácie</NavDropdown.Item>
+                            <NavDropdown.Item href="/documentation/">Prehľad</NavDropdown.Item>
+                            <NavDropdown.Item href="/documentation/#methodology">Metodika</NavDropdown.Item>
+                            <NavDropdown.Item href="/documentation/#doc">Dokumentácia</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="/log">Zápisnice</Nav.Link>
                     </Nav>
