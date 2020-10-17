@@ -7,7 +7,7 @@ class LogEntryContainer extends React.Component {
         const entries = [
             {
                 date: "12.10.2020 12:00",
-                title: "Zápisnica 1. stretnutie",
+                title: "Zápisnica 2. stretnutie",
                 doc: "../docs/log-02.docx",
                 subtitle: "Bc. Tadeáš Drahovský"
             },
@@ -41,9 +41,8 @@ class LogEntryContainer extends React.Component {
             "text-align": "center"
         }
 
-        const lastEntry = this.getEntries()[0];
         const entries = this.getEntries();
-        entries.shift();
+        const lastEntry = entries.shift();
 
         return (
             <div>
