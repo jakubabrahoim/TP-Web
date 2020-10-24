@@ -5,6 +5,8 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 class NavigationBar extends React.Component {
 
     render() {
+        console.log("NAVBAR");
+
         return (
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
                 <Navbar.Brand href="/">Tímový projekt</Navbar.Brand>

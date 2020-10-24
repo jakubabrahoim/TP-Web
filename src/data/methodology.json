@@ -1,0 +1,26 @@
+[
+    {
+        "date": "10.10.2020",
+        "title": "Metodika formátovania kódu",
+        "doc": "../docs/methodology/code-format.docx",
+        "author": "Bc. Adam Chmara"
+    },
+    {
+        "date": "03.10.2020",
+        "title": "Metodika komunikácie a správy dát",
+        "doc": "../docs/methodology/communication.docx",
+        "author": "Bc. Lukáš Mišaga"
+    },
+    {
+        "date": "12.10.2020",
+        "title": "Metodika správy úloh",
+        "doc": "../docs/methodology/task-management.docx",
+        "author": "Bc. Adam Chmara"
+    },
+    {
+        "date": "10.10.2020",
+        "title": "Metodika verziovania kódu",
+        "doc": "../docs/methodology/code-version.docx",
+        "author": "Bc. Lukáš Mišaga"
+    }
+]

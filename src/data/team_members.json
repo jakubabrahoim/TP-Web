@@ -1,0 +1,44 @@
+[
+    {
+        "firstName": "Adam",
+        "lastName": "Chmara",
+        "position": "",
+        "img": "assets/chmara.jpg"
+    },
+    {
+        "firstName": "Dominik",
+        "lastName": "Dancs",
+        "position": "",
+        "img": "assets/DominikDancs.png"
+    },
+    {
+        "firstName": "Gergely",
+        "lastName": "Lengyel",
+        "position": "",
+        "img": "assets/GergelyLengyel.png"
+    },
+    {
+        "firstName": "Tadeáš",
+        "lastName": "Drahovský",
+        "position": "",
+        "img": "assets/TadeasDrahovsky.png"
+    },
+    {
+        "firstName": "Kamil",
+        "lastName": "Lihan",
+        "position": "",
+        "img": "assets/KamilLihan.png"
+    },
+    {
+        "firstName": "Karolína",
+        "lastName": "Trnovcová",
+        "position": "",
+        "img": "assets/KarolinaTrnovcova.png"
+    },
+    {
+        "firstName": "Lukáš",
+        "lastName": "Mišaga",
+        "position": "",
+        "img": "assets/LukasMisaga.png"
+    }
+]
