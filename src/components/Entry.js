@@ -84,7 +84,10 @@ class Entry extends React.Component {
                     <span style={descriptionStyle}>
                         <h6 style={dateStyle}>{this.props.item.date}</h6>
                         <h4 style={titleStyle}>{this.props.item.title}</h4>
-                        <h5 style={subTitleStyle}>{this.props.item.subtitle}</h5>
+                        <span>
+                            <h6>Autor: </h6>
+                            <h5 style={subTitleStyle}>{this.props.item.subtitle}</h5>
+                        </span>
                         <div style={downloadStyle}>Stiahnuť</div>
                     </span>
                 </a>
