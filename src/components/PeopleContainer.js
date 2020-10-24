@@ -1,55 +1,11 @@
 import React from 'react';
 
-import TeamMemberContainer from './TeamMemberContainer'
+import TeamMemberContainer from './TeamMemberContainer';
+import TeamMemberData from '../data/team_members.json';
 
 class PeopleContainer extends React.Component {
     getPeopleList() {
-        const people = [
-            {
-                firstName: "Adam",
-                lastName: "Chmara",
-                position: "Dodať FOTO",
-                img: "assets/chmara.jpg"
-            },
-            {
-                firstName: "Dominik",
-                lastName: "Dancs",
-                position: "TODO",
-                img: "assets/DominikDancs.png"
-            },
-            {
-                firstName: "Gergely",
-                lastName: "Lengyel",
-                position: "TODO",
-                img: "assets/GergelyLengyel.png"
-            },
-            {
-                firstName: "Tadeáš",
-                lastName: "Drahovský",
-                position: "TODO",
-                img: "assets/TadeasDrahovsky.png"
-            },
-            {
-                firstName: "Kamil",
-                lastName: "Lihan",
-                position: "TODO",
-                img: "assets/KamilLihan.png"
-            },
-            {
-                firstName: "Karolína",
-                lastName: "Trnovcová",
-                position: "TODO",
-                img: "assets/KarolinaTrnovcova.png"
-            },
-            {
-                firstName: "Lukáš",
-                lastName: "Mišaga",
-                position: "TODO",
-                img: "assets/LukasMisaga.png"
-            },
-        ];
-
-        return people.map(x => (
+        return TeamMemberData.map(x => (
             <TeamMemberContainer member={x} />
         ));
     }
