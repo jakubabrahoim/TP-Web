@@ -1,3 +1,6 @@
 [submodule "src/documentation"]
 	path = src/documentation
 	url = git@github.com:ASICDE/documentation.git
+[submodule ".\\public\\documentation"]
+	path = .\\public\\documentation
+	url = git@github.com:ASICDE/documentation.git
