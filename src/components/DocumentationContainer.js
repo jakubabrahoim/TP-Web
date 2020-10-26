@@ -9,19 +9,27 @@ class DocumentationContainer extends React.Component {
     }
 
     componentWillMount() {
-        fetch(process.env.PUBLIC_URL + "/documentation/README.md").then(res => res.text()).then(text => this.setState({ markdown: text }));
+        fetch(process.env.PUBLIC_URL + "/docs/markdown/README.md").then(res => res.text()).then(text => this.setState({ markdown: text }));
     }
 
     followLink(e) {
         const baseURL = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname.split("/")[1];
+        // console.log(e);
         // console.log(baseURL);
-        // console.log(e.target.href);
-        // console.log(e.target.href.includes(baseURL));
+        // console.log(e.currentTarget.href);
+        // console.log(e.currentTarget.href.includes(baseURL));
     
-        if (e.target.href.includes(baseURL)) {
+        if (e.currentTarget.href.includes(baseURL)) {
             e.preventDefault();
-            const markdownFile = process.env.PUBLIC_URL + "/documentation/" + e.target.href.replace(baseURL, "").split("/")[1];
-            fetch(markdownFile).then((res) => res.text()).then((text) => this.setState({ markdown: text }));
+            const targetURL = e.currentTarget.href.replace(baseURL, "").split("/")[1];
+            const markdownFile = process.env.PUBLIC_URL + "/docs/markdown/" + targetURL;
+
+            if (targetURL.startsWith('#')) {
+                e.preventDefault();
+                console.log('Relative URL: ' + targetURL);
+            }
+            else 
+                fetch(markdownFile).then((res) => res.text()).then((text) => this.setState({ markdown: text }));
         }
     }
     
@@ -29,6 +37,13 @@ class DocumentationContainer extends React.Component {
         const children = props.children || "";
         return (
           <a onClick={this.followLink} href={props.node.url} title={props.node.title}>{children}</a>
+        );
+    }
+
+    imageRenderer(props) {
+        console.log(props);
+        return(
+            <img style={{width: "100%", height: "auto"}} src={process.env.PUBLIC_URL + "/docs/markdown/" + props.src} alt={props.alt} />
         );
     }
 
@@ -60,7 +75,7 @@ class DocumentationContainer extends React.Component {
             <div className="jumbotron" id="doc" style={containerStyle}>
                 <h3 style={headerStyle}>Dokumentácia</h3>
                 <div className="jumbotron" style={cardStyle}>
-                    <ReactMarkdown renderers={{ link: (props) => this.linkRenderer(props) }}>{this.state.markdown}</ReactMarkdown>
+                    <ReactMarkdown renderers={{ link: (props) => this.linkRenderer(props), image: (props) => this.imageRenderer(props) }}>{this.state.markdown}</ReactMarkdown>
                 </div>
             </div>
         );
