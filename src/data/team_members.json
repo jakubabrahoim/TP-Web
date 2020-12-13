@@ -8,19 +8,19 @@
     {
         "firstName": "Dominik",
         "lastName": "Dancs",
-        "tasks": ["Správa VM", "Tvorba dokumentácie"],
+        "tasks": ["Team leader", "Backend", "Správa VM"],
         "img": "assets/DominikDancs.png"
     },
     {
         "firstName": "Gergely",
         "lastName": "Lengyel",
-        "tasks": ["Mockupy frontendu", "Dokumentácia"],
+        "tasks": ["Tvorba mockupov", "Backend"],
         "img": "assets/GergelyLengyel.png"
     },
     {
         "firstName": "Tadeáš",
         "lastName": "Drahovský",
-        "tasks": ["Tvorba zápisníc", "Mockupy frontendu"],
+        "tasks": ["Tvorba mockupov", "Frontend"],
         "img": "assets/TadeasDrahovsky.png"
     },
     {
@@ -32,13 +32,13 @@
     {
         "firstName": "Karolína",
         "lastName": "Trnovcová",
-        "tasks": ["Frontend"],
+        "tasks": ["Frontend", "Dokumentácia"],
         "img": "assets/KarolinaTrnovcova.png"
     },
     {
         "firstName": "Lukáš",
         "lastName": "Mišaga",
-        "tasks": ["Tvorba dokumentácie", "Backend"],
+        "tasks": ["Backend", "Testovanie", "Architektúra"],
         "img": "assets/LukasMisaga.png"
     }
 ]
