@@ -14,8 +14,8 @@ class HomePage extends React.Component {
       <div className="App">
         <NavigationBar />
         <IntroContainer />
-        <AssignmentContainer />
-        <AboutTeam />
+        <AssignmentContainer/>
+        <AboutTeam/>
         <PeopleContainer />
         <FooterContainer />
       </div>

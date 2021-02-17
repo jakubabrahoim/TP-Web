@@ -20,7 +20,7 @@ class AboutTeam extends React.Component {
         };
 
         return (
-            <div className="jumbotron" id="team" style={containerStyle}>
+            <div className="jumbotron" style={containerStyle}>
                 <h3 style={headerStyle}>O tíme</h3>
                 <p style={pwidth}>
                     Náš tím prináša zmes rôznych znalostí, zručností a praxe v rôznych oblastiach, nadobudnutých nielen v rámci, ale aj mimo našej univerzity. Tento široký obzor znalostí dokážeme uplatniť v programovaní, manažmente projektov, tvorbe architektúry softvéru a vlastných hardvérových riešení, databázových a webových technológiách, informačnej bezpečnosti, sieťovej architektúre a tiež vo svete IoT zariadení. S prácou v tíme máme všetci skúsenosti, vieme sa ako tím zorganizovať, vieme sa dohodnúť a dokážeme využívať dostupný softvér na manažment úloh ako aj časové rozvrhnutie projektu. K tomuto prispievajú aj skúsenosti s kolaboratívnymi nástrojmi, či už ide o zabezpečenie efektívnej komunikácie, návrh a architektúru projektu, správu verzií kódu, alebo zdieľanie dokumentácie a podkladov k projektu. (Git, Trello / Jira, Slack / Mattermost, Google docs, Google meet, TFS...).

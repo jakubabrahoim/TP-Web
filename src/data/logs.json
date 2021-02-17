@@ -1,62 +1,72 @@
 [
-    {
-	"date": "7.12.2020 8:00",
-	"title": "Zápisnica 10. stretnutie",
-	"doc": "../docs/logs/Zápisnica 10.docx",
-	"author": "Bc. Tadeáš Drahovský"
-    },
-    {
-	"date": "30.11.2020 8:00",
-	"title": "Zápisnica 9. stretnutie",
-	"doc": "../docs/logs/Zápisnica 9.docx",
-	"author": "Bc. Tadeáš Drahovský"
-    },
-    {
-	"date": "23.11.2020 8:00",
-	"title": "Zápisnica 8. stretnutie",
-	"doc": "../docs/logs/Zápisnica 8.docx",
-	"author": "Bc. Tadeáš Drahovský"
-    },
-    {
-	"date": "16.11.2020 8:00",
-	"title": "Zápisnica 7. stretnutie",
-	"doc": "../docs/logs/Zápisnica 7.docx",
-	"author": "Bc. Tadeáš Drahovský"
-    },
-    {
-	"date": "9.11.2020 8:00",
-	"title": "Zápisnica 6. stretnutie",
-	"doc": "../docs/logs/Zápisnica 6.docx",
-	"author": "Bc. Tadeáš Drahovský"
-    },
-    {
-	"date": "2.11.2020 8:00",
-	"title": "Zápisnica 5. stretnutie",
-	"doc": "../docs/logs/Zápisnica 5.docx",
-	"author": "Bc. Tadeáš Drahovský"
-    },
-    {
-	"date": "26.10.2020 8:00",
-	"title": "Zápisnica 4. stretnutie",
-	"doc": "../docs/logs/Zápisnica 4.docx",
-	"author": "Bc. Tadeáš Drahovský"
-    },
-    {
-        "date": "19.10.2020 8:00",
-        "title": "Zápisnica 3. stretnutie",
-        "doc": "../docs/logs/Zápisnica 3.docx",
-        "author": "Bc. Tadeáš Drahovský"
-    },
-    {
-        "date": "12.10.2020 8:00",
-        "title": "Zápisnica 2. stretnutie",
-        "doc": "../docs/logs/Zápisnica 2.docx",
-        "author": "Bc. Tadeáš Drahovský"
-    },
-    {
-        "date": "03.10.2020 8:00",
-        "title": "Zápisnica 1. stretnutie",
-        "doc": "../docs/logs/Zápisnica 1.docx",
-        "author": "Bc. Tadeáš Drahovský"
-    }
+  {
+    "number": "10",
+    "date": "7.12.2020 8:00",
+    "title": "Zápisnica 10. stretnutie",
+    "doc": "../docs/logs/Zápisnica 10.docx",
+    "author": "Bc. Tadeáš Drahovský"
+  },
+  {
+    "number": "9",
+    "date": "30.11.2020 8:00",
+    "title": "Zápisnica 9. stretnutie",
+    "doc": "../docs/logs/Zápisnica 9.docx",
+    "author": "Bc. Tadeáš Drahovský"
+  },
+  {
+    "number": "8",
+    "date": "23.11.2020 8:00",
+    "title": "Zápisnica 8. stretnutie",
+    "doc": "../docs/logs/Zápisnica 8.docx",
+    "author": "Bc. Tadeáš Drahovský"
+  },
+  {
+    "number": "7",
+    "date": "16.11.2020 8:00",
+    "title": "Zápisnica 7. stretnutie",
+    "doc": "../docs/logs/Zápisnica 7.docx",
+    "author": "Bc. Tadeáš Drahovský"
+  },
+  {
+    "number": "6",
+    "date": "9.11.2020 8:00",
+    "title": "Zápisnica 6. stretnutie",
+    "doc": "../docs/logs/Zápisnica 6.docx",
+    "author": "Bc. Tadeáš Drahovský"
+  },
+  {
+    "number": "5",
+    "date": "2.11.2020 8:00",
+    "title": "Zápisnica 5. stretnutie",
+    "doc": "../docs/logs/Zápisnica 5.docx",
+    "author": "Bc. Tadeáš Drahovský"
+  },
+  {
+    "number": "4",
+    "date": "26.10.2020 8:00",
+    "title": "Zápisnica 4. stretnutie",
+    "doc": "../docs/logs/Zápisnica 4.docx",
+    "author": "Bc. Tadeáš Drahovský"
+  },
+  {
+    "number": "3",
+    "date": "19.10.2020 8:00",
+    "title": "Zápisnica 3. stretnutie",
+    "doc": "../docs/logs/Zápisnica 3.docx",
+    "author": "Bc. Tadeáš Drahovský"
+  },
+  {
+    "number": "2",
+    "date": "12.10.2020 8:00",
+    "title": "Zápisnica 2. stretnutie",
+    "doc": "../docs/logs/Zápisnica 2.docx",
+    "author": "Bc. Tadeáš Drahovský"
+  },
+  {
+    "number": "1",
+    "date": "03.10.2020 8:00",
+    "title": "Zápisnica 1. stretnutie",
+    "doc": "../docs/logs/Zápisnica 1.docx",
+    "author": "Bc. Tadeáš Drahovský"
+  }
 ]

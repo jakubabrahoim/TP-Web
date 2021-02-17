@@ -19,10 +19,9 @@ class TeamMemberContainer extends React.Component {
             "display": "inline-block",
             "border-radius": "2%",
             "margin": "10px",
-            "-webkit-box-shadow": "10px 10px 28px -3px rgba(0,0,0,0.26)",
-            "-moz-box-shadow": "10px 10px 28px -3px rgba(0,0,0,0.26)",
             "box-shadow": "10px 10px 28px -3px rgba(0,0,0,0.26)",
-            "vertical-align": "top"
+            "vertical-align": "top",
+            "transition": "ease all .5s"
         };
 
         const lastNameStyle = {

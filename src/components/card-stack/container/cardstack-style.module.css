@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #ddd;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.wrapper a:not(:first-child) {
+  margin-left: -450px;
+}
+
+.wrapper a:hover ~ a, .wrapper a:focus ~ a {
+  transform: translateX(400px);
+}
