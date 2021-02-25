@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Entry from './Entry'
-import LogData from '../data/logs.json';
+import LogData from '../data/logs2.json';
 
 class LogEntryContainer extends React.Component {
     getEntries() {

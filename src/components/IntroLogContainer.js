@@ -37,7 +37,6 @@ class IntroLogContainer extends React.Component {
           <h1 style={headerStyle}>Zápisnice pre Tímový projekt 2</h1>
         </div>
         <div className="jumbotron" style={styles2}></div>
-        <CardStack items={this.getEntries()} />
       </div>
     );
   }

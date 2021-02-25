@@ -6,6 +6,7 @@ import NavigationBar from "../components/NavigationBar";
 import IntroLogContainer from "../components/IntroLogContainer";
 import FooterContainer from "../components/FooterContainer";
 import LogOldContainter from "../components/LogOldContainer";
+import LogEntryContainer from "../components/LogEntryContainter";
 
 class LogPage extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class LogPage extends React.Component {
         <div>
           <NavigationBar />
           <IntroLogContainer />
+          <LogEntryContainer />
           <LogOldContainter />
         </div>
         <FooterContainer />
