@@ -17,4 +17,11 @@
         "doc": "../docs/methodology/code-version.docx",
         "author": "Bc. Lukáš Mišaga"
     }
+    ,
+    {
+        "date": "10.10.2020",
+        "title": "Metodika kontroly a testovania kódu",
+        "doc": "../docs/methodology/code-test.docx",
+        "author": "Bc. Dominik Dancs"
+    }
 ]
