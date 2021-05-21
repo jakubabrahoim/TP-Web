@@ -73,7 +73,7 @@ class DocumentationContainer extends React.Component {
 
         return (
             <div className="jumbotron" id="doc" style={containerStyle}>
-                <h3 style={headerStyle}>Dokumentácia</h3>
+                <h3 style={headerStyle}>Softvérová dokumentácia</h3>
                 <div className="jumbotron" style={cardStyle}>
                     <ReactMarkdown renderers={{ link: (props) => this.linkRenderer(props), image: (props) => this.imageRenderer(props) }}>{this.state.markdown}</ReactMarkdown>
                 </div>

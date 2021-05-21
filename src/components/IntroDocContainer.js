@@ -1,6 +1,13 @@
 import React from 'react';
 
+import Entry from './Entry';
+import DocumentationData from '../data/documentation.json';
+
 class IntroDocContainer extends React.Component {
+    getEntries() {
+        return DocumentationData.map(e => <Entry item={e} width="20%" height="320px" methodology/>);
+    }
+
     render() {
         const styles = {
             "background": "#2C3E50",
@@ -14,9 +21,12 @@ class IntroDocContainer extends React.Component {
             "color": "whitesmoke"
         }
 
+        const entries = this.getEntries();
+
         return (
             <div className="jumbotron" style={styles}>
                 <h1 style={headerStyle}>Dokumentácia k projektu</h1>
+                {entries}
             </div>
         );
     }

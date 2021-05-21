@@ -23,11 +23,11 @@ class NavigationBar extends React.Component {
                         <Nav.Link href="/log">Zápisnice</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="http://demo.asicde.org/" target="_blank">
+                        <Nav.Link href="/api-docs/" target="_blank">
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-terminal-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm9.5 5.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm-6.354-.354L4.793 6.5 3.146 4.854a.5.5 0 1 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708z" />
                             </svg>
-                            <span> DEMO</span>
+                            <span> API dokumentácia</span>
                         </Nav.Link>
                         <Nav.Link href="http://github.com/ASICDE/" target="_blank">
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-code-slash" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
