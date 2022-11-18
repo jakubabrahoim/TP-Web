@@ -5,7 +5,7 @@ import LogData from '../data/logs2.json';
 
 class IntroLogContainer extends React.Component {
     getEntries() {
-        return LogData.map((e) => <Card item={e} />);
+        return LogData.map((e, index) => <Card key={index} item={e} />);
     }
 
     render() {
