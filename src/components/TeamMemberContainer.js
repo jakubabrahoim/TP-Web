@@ -7,19 +7,16 @@ class TeamMemberContainer extends React.Component {
             "width": "200px",
             "height": "200px",
             "object-fit": "cover",
-            "margin": "20px",
-            "border": "2px solid lightgrey"
+            "margin": "-15px",
+            "margin-bottom": "10px"
         };
 
         const memberCardStyle = {
-            "width": "25%",
-            "height": "540px",
-            "min-width": "350px",
-            "max-width": "450px",
+            "width": "20%",
+            "height": "450px",
             "display": "inline-block",
             "border-radius": "2%",
             "margin": "10px",
-            "box-shadow": "10px 10px 28px -3px rgba(0,0,0,0.26)",
             "vertical-align": "top",
             "transition": "ease all .5s"
         };
@@ -37,8 +34,7 @@ class TeamMemberContainer extends React.Component {
         }
 
         const teamPositionStyle = {
-            "font-size": "15px",
-            "font-family": "Arial Narrow, Arial, sans-serif"
+            "font-size": "15px"
         }
 
         const tasks = this.props.member.tasks.map((p) => (<h6 style={teamPositionStyle}>{p}</h6>));
@@ -46,8 +42,8 @@ class TeamMemberContainer extends React.Component {
         return (
             <div className="jumbotron user-container" style={memberCardStyle}>
                 <img src={this.props.member.img} style={imgStyle} alt="Člen tímu"></img>
-                <h2 style={lastNameStyle}>{`${this.props.member.lastName},`}</h2>
-                <h3 style={firstNameStyle}>{this.props.member.firstName}</h3>
+                <h2 style={firstNameStyle}>{`${this.props.member.firstName}`}</h2>
+                <h3 style={lastNameStyle}>{this.props.member.lastName}</h3>
                 <hr />
                 {tasks}
             </div>

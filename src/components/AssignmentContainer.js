@@ -3,7 +3,7 @@ import React from 'react';
 class AssignmentContainer extends React.Component {
     render() {
         const styles = {
-            "background-color": "#1ABC9C",
+            "background-color": "#f2f2f2",
             "margin-top": "0px",
             "margin-bottom": "0px",
             "border-radius": "0px"
@@ -13,19 +13,19 @@ class AssignmentContainer extends React.Component {
             "text-align": "justify",
             "padding-left": "15%",
             "padding-right": "15%",
-            "color": "whitesmoke"
+            "color": "black"
         };
 
         const headerStyle = {
-            "color": "whitesmoke",
+            "color": "black",
             "font-weight": "bold"
         };
 
         return (
             <div className="jumbotron" style={styles} id="about">
-                <h3 style={headerStyle}>CIEĽ PROJEKTU</h3>
+                <h3 style={headerStyle}>NÁŠ PROJEKT</h3>
                 <p style={pwidth}>
-                Cieľom projektu je vylepšiť existujúcu webovú aplikáciu, ktorá má slúžiť ako integrované vývojové prostredie (IDE) pre vývoj číslicových integrovaných systémov (ASIC). Táto aplikácia má za úlohu komplexne pokrývať podporu vývoja číslicových integrovaných systémov, ako napríklad návrh a opis ASIC pomocou jazyka SystemVerilog alebo pomocou kreslenia rôznych diagramov, dokumentácia navrhnutého ASIC, použitie existujúceho simulátora alebo syntetizátora, kolaborácia a komunikácia s ostatnými inžiniermi, práca s Git repozitármi, použitie IP jadier a iné. Cieľom je rozšíriť súčasnú funkcionalitu o novú, ale aj zvýšiť kvalitu existujúcej funkcionality. Dôraz je kladený viac na kvalitu, ako kvantitu, nakoľko táto aplikácia má byť reálne použiteľná v praxi.
+                    V našom projekte chceme vylepšiť existujúce webovú aplikáciu. Táto aplikácia slúži ako integrované vývojové prostredie (IDE) pre vývoj číslicových integrovaných systémov (ASIC) a jej úlohou je komplexne pokryť podporu vývoja číslicových integrovaných systémov. Ponúka nám rôzne funkcionality ako napríklad návrh a opis ASIC pomocou jazyka SystemVerilog, použitie existujúceho simulátora alebo aj kreslenie rôznych diagramov. Okrem tohto nám pomáha aj pri spolupráci a komunikácii s ostatnými vývojarmi a takisto pracujeme aj s GIT repozitármi. Našim cieľom je vylepšiť aktuálnu funkcionalitu, opraviť chyby z predošlých projektov a najmä zvýšiť kvalitu existujúcej aplikácie, keďže táto aplikácia má byť použiteľná v praxi.
                 </p>
             </div>
         );

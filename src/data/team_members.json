@@ -1,44 +1,45 @@
 [
     {
+        "firstName": "Jakub",
+        "lastName": "Abrahoim",
+        "tasks": ["Frontend", "Architektúra", "Dokumentácia"],
+        "img": "assets/jakub.jpg"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Petričko",
+        "tasks": ["Frontend", "Architektúra", "Dokumentácia"],
+        "img": "assets/david.jpg"
+    },
+    {
         "firstName": "Adam",
-        "lastName": "Chmara",
-        "tasks": ["Frontend", "Testovanie"],
-        "img": "assets/chmara.jpg"
+        "lastName": "Blahovič",
+        "tasks": ["Backend","Architektúra", "Dokumentácia"],
+        "img": "assets/adam.jpg"
     },
     {
-        "firstName": "Dominik",
-        "lastName": "Dancs",
-        "tasks": ["Team leader", "Backend", "Správa VM"],
-        "img": "assets/DominikDancs.png"
+        "firstName": "Marek",
+        "lastName": "Božík",
+        "tasks": ["Backend", "Team leader", "SCRUM master"],
+        "img": "assets/marek.jpg"
     },
     {
-        "firstName": "Gergely",
-        "lastName": "Lengyel",
-        "tasks": ["Tvorba mockupov", "Backend"],
-        "img": "assets/GergelyLengyel.png"
+        "firstName": "Andrej",
+        "lastName": "Gažík",
+        "tasks": ["Backend", "Tvorba mockupov", "Testovanie"],
+        "img": "assets/zabka.jpg"
     },
     {
-        "firstName": "Tadeáš",
-        "lastName": "Drahovský",
-        "tasks": ["Tvorba mockupov", "Frontend"],
-        "img": "assets/TadeasDrahovsky.png"
+        "firstName": "Tomáš",
+        "lastName": "Rafaj",
+        "tasks": ["Prezentačný web", "Testovanie", "Server"],
+        "img": "assets/tomas.jpg"
     },
     {
-        "firstName": "Kamil",
-        "lastName": "Lihan",
-        "tasks": ["Frontend", "Vývoj a správa prezentačného webu"],
-        "img": "assets/KamilLihan.png"
-    },
-    {
-        "firstName": "Karolína",
-        "lastName": "Trnovcová",
-        "tasks": ["Frontend", "Dokumentácia"],
-        "img": "assets/KarolinaTrnovcova.png"
-    },
-    {
-        "firstName": "Lukáš",
-        "lastName": "Mišaga",
-        "tasks": ["Backend", "Testovanie", "Architektúra"],
-        "img": "assets/LukasMisaga.png"
+        "firstName": "Anna",
+        "lastName": "Yuová",
+        "tasks": ["Prezentačný web", "Zápisnice", "Server"],
+        "img": "assets/anna.jpg"
     }
+    
 ]

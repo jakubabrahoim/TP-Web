@@ -37,10 +37,8 @@ class FooterContainer extends React.Component {
         return (
             <div>
                 <footer>
-                    <div className="jumbotron" style={styles2}>
-                    </div>
                     <div className="jumbotron" style={styles}>
-                        <h6 style={copyrightStyle}>© 2020 | TÍMOVÝ PROJEKT | FIIT STU</h6>
+                        <h6 style={copyrightStyle}>© 2022 | TÍMOVÝ PROJEKT | FIIT STU</h6>
                     </div>
                 </footer>
             </div>
