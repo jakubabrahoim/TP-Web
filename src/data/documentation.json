@@ -1,0 +1,26 @@
+[
+    {
+        "date": "19.05.2021",
+        "title": "LS - Dokumentácia inžinierskeho diela",
+        "doc": "../docs/documentation/ls-dielo.pdf",
+        "author": "Tím 1"
+    },
+    {
+        "date": "19.05.2021",
+        "title": "LS - Dokumentácia riadenia",
+        "doc": "../docs/documentation/ls-riadenie.pdf",
+        "author": "Tím 1"
+    },
+    {
+        "date": "18.12.2020",
+        "title": "ZS - Dokumentácia inžinierskeho diela",
+        "doc": "../docs/documentation/zs-dielo.pdf",
+        "author": "Tím 1"
+    },
+    {
+        "date": "18.12.2020",
+        "title": "ZS - Dokumentácia riadenia",
+        "doc": "../docs/documentation/zs-riadenie.pdf",
+        "author": "Tím 1"
+    }
+]
