@@ -1,37 +1,44 @@
-[
+[ 
+  {
+  "number": "6",
+  "date": "15.11.2022 11:00",
+  "title": "Zápisnica 6. stretnutie",
+  "doc": "../docs/logs/Z6.pdf",
+  "author": "Bc. Anna Yuová"
+  },
   {
     "number": "5",
-    "date": "1.11.2022 14:00",
+    "date": "8.11.2022 11:00",
     "title": "Zápisnica 5. stretnutie",
-    "doc": "../docs/logs/Z1.pdf",
+    "doc": "../docs/logs/Z5.pdf",
     "author": "Bc. Anna Yuová"
   },
   {
     "number": "4",
-    "date": "25.10.2022 14:00",
+    "date": "25.10.2022 11:00",
     "title": "Zápisnica 4. stretnutie",
-    "doc": "../docs/logs/Z2.pdf",
+    "doc": "../docs/logs/Z4.pdf",
     "author": "Bc. Anna Yuová"
   },
   {
     "number": "3",
-    "date": "18.10.2022 14:00",
+    "date": "18.10.2022 11:00",
     "title": "Zápisnica 3. stretnutie",
-    "doc": "../docs/logs/Z2.pdf",
+    "doc": "../docs/logs/Z3.pdf",
     "author": "Bc. Anna Yuová"
   },
   {
     "number": "2",
     "date": "11.10.2022 11:00",
     "title": "Zápisnica 2. stretnutie",
-    "doc": "../docs/logs/Z4.pdf",
+    "doc": "../docs/logs/Z2.pdf",
     "author": "Bc. Anna Yuová"
   },
   {
     "number": "1",
     "date": "4.10.2022 11:00",
     "title": "Zápisnica 1. stretnutie",
-    "doc": "../docs/logs/Z4.pdf",
+    "doc": "../docs/logs/Z1.pdf",
     "author": "Bc. Anna Yuová"
   }
 ]
