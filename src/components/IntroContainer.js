@@ -3,21 +3,21 @@ import React from 'react';
 class IntroContainer extends React.Component {
     render() {
         const styles = {
-            "background": "#2C3E50",
-            "margin-top": "48px",
-            "margin-bottom": "0px",
+            "background": "#DDD",
+            "margin-top": "30px",
+            "margin-bottom": "-15px",
             "border-radius": "0px",
         };
 
         const headerStyle = {
-            "font-weight": "900",
-            "color": "whitesmoke"
+            "font-weight": "700",
+            "color": "black"
         }
 
         return (
             <div className="jumbotron" style={styles}>
-                <h1 style={headerStyle}>TÍMOVÝ PROJEKT</h1>
-                <h2 style={headerStyle}>Webové IDE pre ASIC [ASICDE]</h2>
+                <h2 style={headerStyle}>Webové IDE pre vývoj digitálnych systémov [ASICDE]</h2>
+                <h4 style={headerStyle}>Tím 18</h4>
             </div>
         );
     }

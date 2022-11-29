@@ -19,7 +19,7 @@ class LogEntryContainer extends React.Component {
         const containerLastStyle = {
             "border-radius": "0px",
             "margin": "0px",
-            "background": "#DDD"
+            "background": "#ffffff"
         }
 
         const headerStyle = {
