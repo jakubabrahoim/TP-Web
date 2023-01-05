@@ -1,5 +1,33 @@
 [ 
   {
+    "number": "10",
+    "date": "13.12.2022 11:00",
+    "title": "Zápisnica 10. stretnutie",
+    "doc": "../docs/logs/Z10.pdf",
+    "author": "Bc. Anna Yuová"
+  },
+  {
+    "number": "9",
+    "date": "6.12.2022 11:00",
+    "title": "Zápisnica 9. stretnutie",
+    "doc": "../docs/logs/Z9.pdf",
+    "author": "Bc. Anna Yuová"
+  },
+  {
+    "number": "8",
+    "date": "29.11.2022 11:00",
+    "title": "Zápisnica 8. stretnutie",
+    "doc": "../docs/logs/Z8.pdf",
+    "author": "Bc. Anna Yuová"
+  },
+  {
+    "number": "7",
+    "date": "22.11.2022 11:00",
+    "title": "Zápisnica 7. stretnutie",
+    "doc": "../docs/logs/Z7.pdf",
+    "author": "Bc. Anna Yuová"
+  },
+  {
   "number": "6",
   "date": "15.11.2022 11:00",
   "title": "Zápisnica 6. stretnutie",
