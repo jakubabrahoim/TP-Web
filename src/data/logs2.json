@@ -1,71 +1,71 @@
-[ 
+[
   {
     "number": "10",
     "date": "13.12.2022 11:00",
-    "title": "Zápisnica 10. stretnutie",
+    "title": "Zápisnica 10. stretnutie (ZS)",
     "doc": "../docs/logs/Z10.pdf",
     "author": "Bc. Anna Yuová"
   },
   {
     "number": "9",
     "date": "6.12.2022 11:00",
-    "title": "Zápisnica 9. stretnutie",
+    "title": "Zápisnica 9. stretnutie (ZS)",
     "doc": "../docs/logs/Z9.pdf",
     "author": "Bc. Anna Yuová"
   },
   {
     "number": "8",
     "date": "29.11.2022 11:00",
-    "title": "Zápisnica 8. stretnutie",
+    "title": "Zápisnica 8. stretnutie (ZS)",
     "doc": "../docs/logs/Z8.pdf",
     "author": "Bc. Anna Yuová"
   },
   {
     "number": "7",
     "date": "22.11.2022 11:00",
-    "title": "Zápisnica 7. stretnutie",
+    "title": "Zápisnica 7. stretnutie (ZS)",
     "doc": "../docs/logs/Z7.pdf",
     "author": "Bc. Anna Yuová"
   },
   {
-  "number": "6",
-  "date": "15.11.2022 11:00",
-  "title": "Zápisnica 6. stretnutie",
-  "doc": "../docs/logs/Z6.pdf",
-  "author": "Bc. Anna Yuová"
+    "number": "6",
+    "date": "15.11.2022 11:00",
+    "title": "Zápisnica 6. stretnutie (ZS)",
+    "doc": "../docs/logs/Z6.pdf",
+    "author": "Bc. Anna Yuová"
   },
   {
     "number": "5",
     "date": "8.11.2022 11:00",
-    "title": "Zápisnica 5. stretnutie",
+    "title": "Zápisnica 5. stretnutie (ZS)",
     "doc": "../docs/logs/Z5.pdf",
     "author": "Bc. Anna Yuová"
   },
   {
     "number": "4",
     "date": "25.10.2022 11:00",
-    "title": "Zápisnica 4. stretnutie",
+    "title": "Zápisnica 4. stretnutie (ZS)",
     "doc": "../docs/logs/Z4.pdf",
     "author": "Bc. Anna Yuová"
   },
   {
     "number": "3",
     "date": "18.10.2022 11:00",
-    "title": "Zápisnica 3. stretnutie",
+    "title": "Zápisnica 3. stretnutie (ZS)",
     "doc": "../docs/logs/Z3.pdf",
     "author": "Bc. Anna Yuová"
   },
   {
     "number": "2",
     "date": "11.10.2022 11:00",
-    "title": "Zápisnica 2. stretnutie",
+    "title": "Zápisnica 2. stretnutie (ZS)",
     "doc": "../docs/logs/Z2.pdf",
     "author": "Bc. Anna Yuová"
   },
   {
     "number": "1",
     "date": "4.10.2022 11:00",
-    "title": "Zápisnica 1. stretnutie",
+    "title": "Zápisnica 1. stretnutie (ZS)",
     "doc": "../docs/logs/Z1.pdf",
     "author": "Bc. Anna Yuová"
   }
