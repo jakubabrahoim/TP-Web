@@ -2,44 +2,48 @@
     {
         "firstName": "Jakub",
         "lastName": "Abrahoim",
-        "tasks": ["Frontend", "Architektúra", "Dokumentácia"],
+        "tasks": [
+            "Frontend",
+            "Dokumentácia"
+        ],
         "img": "assets/jakub.jpg"
     },
     {
         "firstName": "David",
         "lastName": "Petričko",
-        "tasks": ["Frontend", "Architektúra", "Dokumentácia"],
+        "tasks": [
+            "Frontend",
+            "Dokumentácia"
+        ],
         "img": "assets/david.jpg"
     },
     {
         "firstName": "Adam",
         "lastName": "Blahovič",
-        "tasks": ["Backend","Architektúra", "Dokumentácia"],
+        "tasks": [
+            "Backend",
+            "Testovanie",
+            "Dokumentácia"
+        ],
         "img": "assets/adam.jpg"
     },
     {
         "firstName": "Marek",
         "lastName": "Božík",
-        "tasks": ["Backend", "Team leader", "SCRUM master"],
+        "tasks": [
+            "Backend",
+            "Team leader",
+            "Dokumentácia"
+        ],
         "img": "assets/marek.jpg"
     },
     {
         "firstName": "Andrej",
         "lastName": "Gažík",
-        "tasks": ["Backend", "Tvorba mockupov", "Testovanie"],
+        "tasks": [
+            "Backend",
+            "Správa servera"
+        ],
         "img": "assets/andrej.jpg"
-    },
-    {
-        "firstName": "Tomáš",
-        "lastName": "Rafaj",
-        "tasks": ["Prezentačný web", "Testovanie", "Server"],
-        "img": "assets/tomas.jpg"
-    },
-    {
-        "firstName": "Anna",
-        "lastName": "Yuová",
-        "tasks": ["Prezentačný web", "Zápisnice", "Server"],
-        "img": "assets/anna.jpg"
     }
-    
 ]
